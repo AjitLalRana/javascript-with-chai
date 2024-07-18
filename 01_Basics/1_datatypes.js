@@ -20,7 +20,7 @@ so prefer not to use var use let and const for constant values.
 // Symbol => uniqueness defines
 // object 
 
-console.log(typeof "Atharv");
+console.log(typeof "Ajit");
 console.log(typeof null); // output is Object this is sort of flaw of javascript
 console.log(typeof(undefined));// this is another way to use typeof as a function //output is undefined // this is deffrent from null this is the flaw of javascript
 console.log(typeof String); // output String, it is a function

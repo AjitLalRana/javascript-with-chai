@@ -1,4 +1,4 @@
-let age = "26"; // We want to convert this string into number as values can be given in strings may be in fuctions 
+let age = "19"; // We want to convert this string into number as values can be given in strings may be in fuctions 
 
 console.log(typeof age);
 
@@ -10,7 +10,7 @@ console.log(ageInNumber);
 
 // Let's say we want to convert alphanumeric values or value = "25ABC"
 
-let value = "26APB";
+let value = "19Ajit";
 let convertedValue = Number(value); // using string function converted alphanumeric values
 
 console.log(typeof convertedValue); // output will be number 

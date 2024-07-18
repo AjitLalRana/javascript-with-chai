@@ -7,10 +7,10 @@
 
 // literal way
 let myObject = {
-    name: "Atharv", // you can give any datatype here even function,array or another object
-    "Email ID": "atharv.bhute18@gmail.com", // 
-    lastname: "Bhute",
-    age: 23
+    name: "Ajit", // you can give any datatype here even function,array or another object
+    "Email ID": "ar3170149@gmail.com", // 
+    lastname: "Lal Rana",
+    age: 19
 }; // you can define keys and value of name;
 
 // accessing values from object
@@ -35,13 +35,13 @@ console.log(obj2);
 // Right way will help you in interview question.
 
 // update object
-myObject.name = "Gayatri";
+myObject.name = "Devanti";
 console.log(myObject);
 
 //if you want to not change or update object in future you can feeze the object
 
 // Object.freeze(myObject)
-myObject.name = "Atharv" // this change won't apply
+myObject.name = "Ajit" // this change won't apply
 console.log(myObject);// this is giving name as Gayatri only
 
 //giving functions in object

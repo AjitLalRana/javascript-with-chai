@@ -1,5 +1,5 @@
-let name = "Atharv";
-let age = "26";
+let name = "Ajit";
+let age = "19";
 
 console.log(name + "'s age is " + age); // this is how you concatinate string using variable in it however this is the old way
 
@@ -10,12 +10,12 @@ console.log(`${name}'s age is ${age}`); // using backticks and injecting variabl
 
 //other string manupulation
 
-let firstName = "Atharv"; 
+let firstName = "Ajit"; 
 console.log(firstName.length); //this is one way to manupulate string
 
 //if we want to manupulate string in more precise way
 
-let lastName = new String("Bhute"); // here we are using new instance of String object
+let lastName = new String("Lal Rana"); // here we are using new instance of String object
 console.log(lastName); 
 /*
 output is string object however this gives us many string functions with protype and 
@@ -23,7 +23,7 @@ this stores every character with unique key value pair where keys are sort of in
 */
 
 console.log(lastName.__proto__); // this will give us empty object {} however this contains many functions
-console.log(lastName.indexOf('h')); // here we are using direct function or proprty or method from prototype, not everytime we use to give __proto__.indexOf
+console.log(lastName.indexOf('l')); // here we are using direct function or proprty or method from prototype, not everytime we use to give __proto__.indexOf
 //however above example didn't changed original string as it was stored stack but this is the function or object we are giving it must be stores in heap? research on it
 
 console.log(lastName.charAt(4)); 
@@ -37,16 +37,16 @@ console.log(lastName.substring(0,3)); // so here it is not counting last charact
 // in .slice method you can give nigetive values as well as (-2, 4) // this will start counting from behind
 console.log(lastName.slice(-3,4));// here 4 is from starting index and -3 is from behind (<-, ->) like this
 
-let fullName = "    Atharv Bhute   "// suppose user gave name or email or any values with spaces
+let fullName = "    Ajit Lal Rana   "// suppose user gave name or email or any values with spaces
 console.log(fullName.trim()); // this removes starting and end spaces// read documentation for more trim usage and function
 
-let URL = "www.atharvbhute.com/home%page"; // lets change this url
+let URL = "www.xyz.com/home%page"; // lets change this url
 let newURL = URL.replace('home%page', "about-us"); // (value to replace, replacement); // usecase in frontend and backend
 
 console.log(newURL); 
 
-console.log(URL.includes("Gayatri")); //this method gives if that word is available in string or not// output is false
+console.log(URL.includes("Suresh")); //this method gives if that word is available in string or not// output is false
 
-let newName = "Gayatri Pravin Bhute";
+let newName = "Suresh Ajit Lal Rana";
 let newSplitedString = newName.split(' ')// arg will be saperator// this gives us saperated string in an Array
-console.log(newSplitedString); // ['Gayatri','Pravin','Bhute'];
+console.log(newSplitedString); // ['Suresh' 'Ajit' 'Lal' 'Rana'];

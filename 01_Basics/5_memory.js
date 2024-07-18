@@ -10,10 +10,10 @@ Heap = it gives you reference
 // here are some examples 
 
 // stack
-let name1 = "Atharv";
+let name1 = "Ajit";
 let name2 = name1;
 
-name2 = "Gayati";
+name2 = "Bhanu";
 
 console.log(name1);
 console.log(name2);
@@ -28,16 +28,16 @@ name1 remains same, and when we changed name2 it the copy of name 1 changed.
 
 // Exapmle 1
 let person1 = {
-    name: "Atharv",
-    age: 25
+    name: "Ajit",
+    age: 19
 }
 
 let person2 = person1
 
-person2.name = "Gayatri" // here we have changed value of person2 however person1's value is changed now
+person2.name = "Bhanu" // here we have changed value of person2 however person1's value is changed now
 
-console.log(person1.name); //  Gayati
-console.log(person2.name); // Gayati
+console.log(person1.name); //  Bhanu
+console.log(person2.name); // Bhanu
 
 // Example 2
 
@@ -49,7 +49,7 @@ let car1 = {
 let car2 = car1;
 
 car2 = {
-    color: "Blue",
+    color: "Black",
     price: "25"
 }
 

@@ -9,9 +9,9 @@ user[symb1] = "HAHA";
 user.newObject = {
     name : "networkUser",
     networkUser : {
-        userName : "Atharv",
-        lastName : "Bhute",
-        email : "atharv@google.com"
+        userName : "Ajit",
+        lastName : "Lal Rana",
+        email : "ar3170149@google.com"
     }
 }
 
@@ -36,13 +36,13 @@ console.log(obj4);
 let arrObj = [
     {
         id : 1,
-        name : "atharv",
-        lastname : "Bhute"
+        name : "ajit",
+        lastname : "Lal Rana"
     },
     {
         id : 2,
-        name : "Gayatri",
-        lastname : "Bhute"
+        name : "Deventi",
+        lastname : "Devi"
     }
 ]
 

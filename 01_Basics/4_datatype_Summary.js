@@ -21,8 +21,8 @@ let Null = null;
 console.log(typeof Null); // object
 
 let arr = {
-    name : "Atharv",
-    age : 25
+    name : "Ajit Lal Rana",
+    age : 19
 }
 
 console.log(typeof arr);

@@ -2,8 +2,8 @@
 
 const empData = {
     id: 20354,
-    name: "Atharv",
-    lastname: "Bhute"
+    name: "Ajit",
+    lastname: "Lal Rana"
 }
 
 // now everytime we can't write empData.id for this follow below
