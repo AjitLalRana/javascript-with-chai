@@ -15,15 +15,16 @@ arr.shift()// delete 0th index value
 console.log(arr.includes(5)); // returns true or false// checks if that value is include in array or not
 console.log(arr.indexOf(2)); // gives index of that value
 
-arr.join() //this method joins values of array and make a string out of it.
+console.log(arr.join()); //this method joins values of array and make a string out of it.5,2,2,5,6,8,8,5,2,2,5,4
 
 //slice and splice
 
 let mna = [0,1,2,3,4,5,6,7,8,9];
 
-console.log(mna.slice(2,3)); // [2]// range index 2 to index <-3 (index, index);
+console.log(mna.slice(2,3)); // [2]// range index 2 to index <-3 (index, index); here 3 is exclusive
+
 console.log("a", mna);// slice didn't manipulated an array
 
-console.log(mna.splice(2,3)); // (starting index, how many values after that index);
-console.log("b", mna); //[3, 4, 5, 6,7, 8, 9] // here it actually deleted data // this is the main feature of splice ** vv important
+console.log(mna.splice(2,3)); // (starting index, how many values after that index, last index is exclusive);gives us a new array with deleted values [2,3,4];
+console.log("b", mna); //[0,1,5,6,7,8,9] // here it actually deleted data // this is the main feature of splice ** vv important
 
